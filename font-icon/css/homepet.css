@@ -2,13 +2,42 @@
   font-family: 'homepet';
   src: url('../font/homepet.eot?81338649');
   src: url('../font/homepet.eot?81338649#iefix') format('embedded-opentype'),
-       url('../font/homepet.woff2?81338649') format('woff2'),
-       url('../font/homepet.woff?81338649') format('woff'),
-       url('../font/homepet.ttf?81338649') format('truetype'),
-       url('../font/homepet.svg?81338649#homepet') format('svg');
+    url('../font/homepet.woff2?81338649') format('woff2'),
+    url('../font/homepet.woff?81338649') format('woff'),
+    url('../font/homepet.ttf?81338649') format('truetype'),
+    url('../font/homepet.svg?81338649#homepet') format('svg');
   font-weight: normal;
   font-style: normal;
 }
+
+/*! SET FONT TEXT  */
+
+@font-face {
+  font-family: 'SFCompactRounded';
+  src: url('../../font/SF-Compact-Rounded-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SFCompactRounded';
+  src: url('../../font/SF-Compact-Rounded-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SFCompactRounded';
+  src: url('../../font/SF-Compact-Rounded-Semibold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SFCompactRounded';
+  src: url('../../font/SF-Compact-Rounded-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
 /* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
 /* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
 /*
@@ -19,8 +48,9 @@
   }
 }
 */
-[class^="icon-"]:before, [class*=" icon-"]:before {
-  font-family: "homepet";
+[class^='icon-']:before,
+[class*=' icon-']:before {
+  font-family: 'homepet';
   font-style: normal;
   font-weight: normal;
   speak: never;
@@ -28,7 +58,7 @@
   display: inline-block;
   text-decoration: inherit;
   width: 1em;
-  margin-right: .2em;
+  margin-right: 0.2em;
   text-align: center;
   /* opacity: .8; */
 
@@ -41,7 +71,7 @@
 
   /* Animation center compensation - margins should be symmetric */
   /* remove if not needed */
-  margin-left: .2em;
+  margin-left: 0.2em;
 
   /* you can be more comfortable with increased icons size */
   /* font-size: 120%; */
@@ -54,21 +84,57 @@
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 
-.icon-pinned:before { content: '\e800'; } /* '' */
-.icon-bookmark-active:before { content: '\e801'; } /* '' */
-.icon-clear:before { content: '\e802'; } /* '' */
-.icon-bookmark:before { content: '\e803'; } /* '' */
-.icon-search:before { content: '\e80a'; } /* '' */
-.icon-up:before { content: '\e80b'; } /* '' */
-.icon-verify:before { content: '\e80c'; } /* '' */
-.icon-cat:before { content: '\e80f'; } /* '' */
-.icon-dog:before { content: '\e810'; } /* '' */
-.icon-log_in:before { content: '\e811'; } /* '' */
-.icon-register:before { content: '\e812'; } /* '' */
-.icon-logo:before { content: '\e813'; } /* '' */
-.icon-noti:before { content: '\e814'; } /* '' */
-.icon-post:before { content: '\e815'; } /* '' */
-.icon-username:before { content: '\e817'; } /* '' */
-.icon-password:before { content: '\e818'; } /* '' */
-.icon-all:before { content: '\e819'; } /* '' */
-.icon-active:before { content: '\e81a'; } /* '' */
+.icon-pinned:before {
+  content: '\e800';
+} /* '' */
+.icon-bookmark-active:before {
+  content: '\e801';
+} /* '' */
+.icon-clear:before {
+  content: '\e802';
+} /* '' */
+.icon-bookmark:before {
+  content: '\e803';
+} /* '' */
+.icon-search:before {
+  content: '\e80a';
+} /* '' */
+.icon-up:before {
+  content: '\e80b';
+} /* '' */
+.icon-verify:before {
+  content: '\e80c';
+} /* '' */
+.icon-cat:before {
+  content: '\e80f';
+} /* '' */
+.icon-dog:before {
+  content: '\e810';
+} /* '' */
+.icon-log_in:before {
+  content: '\e811';
+} /* '' */
+.icon-register:before {
+  content: '\e812';
+} /* '' */
+.icon-logo:before {
+  content: '\e813';
+} /* '' */
+.icon-noti:before {
+  content: '\e814';
+} /* '' */
+.icon-post:before {
+  content: '\e815';
+} /* '' */
+.icon-username:before {
+  content: '\e817';
+} /* '' */
+.icon-password:before {
+  content: '\e818';
+} /* '' */
+.icon-all:before {
+  content: '\e819';
+} /* '' */
+.icon-active:before {
+  content: '\e81a';
+} /* '' */
