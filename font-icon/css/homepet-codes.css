@@ -3,6 +3,7 @@
 .icon-bookmark-active:before { content: '\e801'; } /* '' */
 .icon-clear:before { content: '\e802'; } /* '' */
 .icon-bookmark:before { content: '\e803'; } /* '' */
+.icon-delete:before { content: '\e804'; } /* '' */
 .icon-search:before { content: '\e80a'; } /* '' */
 .icon-up:before { content: '\e80b'; } /* '' */
 .icon-verify:before { content: '\e80c'; } /* '' */

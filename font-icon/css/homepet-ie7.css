@@ -14,6 +14,7 @@
 .icon-bookmark-active { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe801;&nbsp;'); }
 .icon-clear { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe802;&nbsp;'); }
 .icon-bookmark { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe803;&nbsp;'); }
+.icon-delete { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe804;&nbsp;'); }
 .icon-search { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe80a;&nbsp;'); }
 .icon-up { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe80b;&nbsp;'); }
 .icon-verify { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe80c;&nbsp;'); }
