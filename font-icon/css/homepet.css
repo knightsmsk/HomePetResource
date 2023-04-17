@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'homepet';
-  src: url('../font/homepet.eot?33959570');
-  src: url('../font/homepet.eot?33959570#iefix') format('embedded-opentype'),
-    url('../font/homepet.woff2?33959570') format('woff2'),
-    url('../font/homepet.woff?33959570') format('woff'),
-    url('../font/homepet.ttf?33959570') format('truetype'),
-    url('../font/homepet.svg?33959570#homepet') format('svg');
+  src: url('../font/homepet.eot?60856791');
+  src: url('../font/homepet.eot?60856791#iefix') format('embedded-opentype'),
+    url('../font/homepet.woff2?60856791') format('woff2'),
+    url('../font/homepet.woff?60856791') format('woff'),
+    url('../font/homepet.ttf?60856791') format('truetype'),
+    url('../font/homepet.svg?60856791#homepet') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -43,7 +43,7 @@
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: 'homepet';
-    src: url('../font/homepet.svg?33959570#homepet') format('svg');
+    src: url('../font/homepet.svg?60856791#homepet') format('svg');
   }
 }
 */
@@ -101,6 +101,9 @@
 .icon-close:before {
   content: '\e805';
 } /* '' */
+.icon-plus:before {
+  content: '\e806';
+} /* '' */
 .icon-search:before {
   content: '\e80a';
 } /* '' */
