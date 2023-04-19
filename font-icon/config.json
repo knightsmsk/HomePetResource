@@ -327,16 +327,16 @@
       ]
     },
     {
-      "uid": "37f6cfbb4062ed0d01b351ec35c334ff",
-      "css": "right-open-mini",
-      "code": 59406,
-      "src": "entypo"
+      "uid": "6zhrgcf3co77hnljttd3b2mrc8z5fiq5",
+      "css": "right-open",
+      "code": 59405,
+      "src": "typicons"
     },
     {
-      "uid": "592717bd601645d61517d2a584d04127",
-      "css": "left-open-mini",
-      "code": 59414,
-      "src": "entypo"
+      "uid": "wlri7uftq4zbi82q2xuf08ayd8kpijlk",
+      "css": "left-open",
+      "code": 59406,
+      "src": "typicons"
     }
   ]
 }
