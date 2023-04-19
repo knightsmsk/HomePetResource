@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'homepet';
-  src: url('../font/homepet.eot?38048387');
-  src: url('../font/homepet.eot?38048387#iefix') format('embedded-opentype'),
-    url('../font/homepet.woff2?38048387') format('woff2'),
-    url('../font/homepet.woff?38048387') format('woff'),
-    url('../font/homepet.ttf?38048387') format('truetype'),
-    url('../font/homepet.svg?38048387#homepet') format('svg');
+  src: url('../font/homepet.eot?59832193');
+  src: url('../font/homepet.eot?59832193#iefix') format('embedded-opentype'),
+    url('../font/homepet.woff2?59832193') format('woff2'),
+    url('../font/homepet.woff?59832193') format('woff'),
+    url('../font/homepet.ttf?59832193') format('truetype'),
+    url('../font/homepet.svg?59832193#homepet') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -43,7 +43,7 @@
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: 'homepet';
-    src: url('../font/homepet.svg?38048387#homepet') format('svg');
+    src: url('../font/homepet.svg?59832193#homepet') format('svg');
   }
 }
 */
@@ -122,12 +122,6 @@
 .icon-verify:before {
   content: '\e80c';
 } /* '' */
-.icon-right-open:before {
-  content: '\e80d';
-} /* '' */
-.icon-left-open:before {
-  content: '\e80e';
-} /* '' */
 .icon-cat:before {
   content: '\e80f';
 } /* '' */
@@ -161,3 +155,9 @@
 .icon-active:before {
   content: '\e81a';
 } /* '' */
+.icon-right-open:before {
+  content: '\f006';
+} /* '' */
+.icon-left-open-1:before {
+  content: '\f007';
+} /* '' */
