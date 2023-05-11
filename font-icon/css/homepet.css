@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'homepet';
-  src: url('../font/homepet.eot?49332540');
-  src: url('../font/homepet.eot?49332540#iefix') format('embedded-opentype'),
-    url('../font/homepet.woff2?49332540') format('woff2'),
-    url('../font/homepet.woff?49332540') format('woff'),
-    url('../font/homepet.ttf?49332540') format('truetype'),
-    url('../font/homepet.svg?49332540#homepet') format('svg');
+  src: url('../font/homepet.eot?91749020');
+  src: url('../font/homepet.eot?91749020#iefix') format('embedded-opentype'),
+    url('../font/homepet.woff2?91749020') format('woff2'),
+    url('../font/homepet.woff?91749020') format('woff'),
+    url('../font/homepet.ttf?91749020') format('truetype'),
+    url('../font/homepet.svg?91749020#homepet') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -43,7 +43,7 @@
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: 'homepet';
-    src: url('../font/homepet.svg?49332540#homepet') format('svg');
+    src: url('../font/homepet.svg?91749020#homepet') format('svg');
   }
 }
 */
@@ -125,6 +125,9 @@
 .icon-left-open:before {
   content: '\e80d';
 } /* '' */
+.icon-at:before {
+  content: '\e80e';
+} /* '' */
 .icon-cat:before {
   content: '\e80f';
 } /* '' */
@@ -146,7 +149,10 @@
 .icon-post:before {
   content: '\e815';
 } /* '' */
-.icon-username:before {
+.icon-open-password:before {
+  content: '\e816';
+} /* '' */
+.icon-post-bookmark:before {
   content: '\e817';
 } /* '' */
 .icon-password:before {
@@ -158,3 +164,18 @@
 .icon-active:before {
   content: '\e81a';
 } /* '' */
+.icon-report-user:before {
+  content: '\e81b';
+} /* '' */
+.icon-check:before {
+  content: '\e81c';
+} /* '' */
+.icon-hide-password:before {
+  content: '\e81d';
+} /* '' */
+.icon-phone:before {
+  content: '\e81e';
+} /* '' */
+.icon-report-post:before {
+  content: '\e81f';
+} /* '' */
