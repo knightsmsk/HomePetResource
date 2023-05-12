@@ -31,3 +31,7 @@
 .icon-hide-password:before { content: '\e81d'; } /* '' */
 .icon-phone:before { content: '\e81e'; } /* '' */
 .icon-report-post:before { content: '\e81f'; } /* '' */
+.icon-user-verify:before { content: '\e820'; } /* '' */
+.icon-edit-profile:before { content: '\e821'; } /* '' */
+.icon-edit-post:before { content: '\e822'; } /* '' */
+.icon-logout:before { content: '\e823'; } /* '' */
